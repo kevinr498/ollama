@@ -1,0 +1,14 @@
+{
+  "model": "registry.ollama.ai/library/llama2:latest",
+  "created_at": "2023-12-07T22:47:22.317573Z",
+  "message": {
+    "role": "assistant",
+    "content": "Yes, I can help you extract the information from the text and convert it into a JSON object. Here is the extracted data:\n\n{\n\"name_first\": \"Sidney\",\n\"name_last\": \"Nelson\",\n\"email\": \"nsidney129@gmail.com\",\n\"phone_number\": \"+1 540 641 7713\",\n\"address\": \"Radford, VA\",\n\"skills\": [\n\"labor scheduling\",\n\"billing\",\n\"trainings\",\n\"assessments\",\n\"customer service\"\n]\n}\n\nExplanation of how I extracted the information:\n\n* `name_first` and `name_last`: These are the first and last names of the person, extracted from the text using a combination of word pattern recognition and named entity recognition.\n* `email`: This is the email address of the person, extracted from the text using a combination of word pattern recognition and part-of-speech tagging.\n* `phone_number`: This is the phone number of the person, extracted from the text using a combination of word pattern recognition and numerical extraction.\n* `address`: This is the address of the person, extracted from the text using a combination of word pattern recognition and named entity recognition.\n* `skills`: These are the skills of the person, extracted from the text using a combination of word pattern recognition and part-of-speech tagging.\n\nNote that the accuracy of the extraction may vary depending on the quality of the text and the complexity of the information being extracted."
+  },
+  "done": true,
+  "total_duration": 21640411166,
+  "prompt_eval_count": 303,
+  "prompt_eval_duration": 3592452000,
+  "eval_count": 350,
+  "eval_duration": 18037337000
+}

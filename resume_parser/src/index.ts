@@ -17,6 +17,7 @@ async function generateData(): Promise<void> {
         const messageFormatted = await requestData(data)
         try {
           const response = await axios.post('http://localhost:11434/api/chat', messageFormatted)
+          console.log('Finished another')
           return response
         } catch (error) {
           console.error('Error sending request:', error)
@@ -41,7 +42,7 @@ async function generateData(): Promise<void> {
 
 async function getMessagesFromFile(): Promise<any[] | null> {
   try {
-    const data = await fs.readFile('chats.json', 'utf-8')
+    const data = await fs.readFile('chat.json', 'utf-8')
     const messages: any[] = JSON.parse(data)
     return messages
   } catch (error: any) {

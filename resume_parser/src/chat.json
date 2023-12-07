@@ -1,0 +1,6 @@
+[
+  {
+    "role": "user",
+    "content": "Can you get this info in a json object and separate first name and last name: {name_first: '', name_last: '', email: '', phone_number: '', address: '', skills: []} from this text? Sidney Nelson\nRadford, VA\nnsidney129@gmail.com\n+1 540 641 7713\nWork Experience\nAssistant Director\nKinderCare Learning Centers - Radford, VA\nPresent\nI support managing a childcare program as well as a staff of 25. My center has a total of 110 children\nthat I ensure receive quality care. I do labor scheduling, billing, trainings, assessments and more on a\ndaily basis. A huge portion of my job is customer service with the families. Ensuring I communicate and\nadvocate for their family’s needs each day.\nProgram Specialist\nKinderCare Learning Centers - Radford, VA\nJanuary 2020 to June 2023\nI worked for KinderCare learning companies as a program Specialist for 3 years. My job as a program\nspecialist was to ensure the center provided families and children with high quality care and education.\nI implemnt"
+  }
+]
